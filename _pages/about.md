@@ -13,7 +13,7 @@ profile:
     <a href='https://scholar.google.com/citations?user=nVHLFkoAAAAJ&hl=en'>Google Scholar</a> <br/>
     <p>Medford, MA</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
