@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>mikhail.petrov[at]tufts.edu</p>
-    <a href='https://scholar.google.com/citations?user=nVHLFkoAAAAJ&hl=en'>Google Scholar</a>
+    <a href='https://scholar.google.com/citations?user=nVHLFkoAAAAJ&hl=en'>Google Scholar</a> <br/>
     <p>Medford, MA</p>
 
 news: true # includes a list of news items
