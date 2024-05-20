@@ -1,6 +1,27 @@
 ---
 ---
 
+@article{
+anonymous2024a,
+title={Transfer Learning with Informative Priors: Simple Baselines Better than Previously Reported},
+author={Harvey\(^{*}\), Ethan and Petrov\(^{*}\), Mikhail and Hughes, Michael C.},
+journal={Transactions on Machine Learning Research},
+year={2024},
+html={https://openreview.net/forum?id=BbvSU02jLg},
+abstract = {We pursue transfer learning to improve classifier accuracy on a target task with few labeled examples available for training.
+Recent work suggests that using a source task to learn a prior distribution over neural net weights, not just an initialization, can boost target task performance.
+In this study, we carefully compare transfer learning with and without source task informed priors across 5 datasets.
+We find that standard transfer learning informed by an initialization only performs far better than reported in previous comparisons.
+The relative gains of methods using informative priors over standard transfer learning vary in magnitude across datasets.
+For the scenario of 5-300 examples per class, we find negative or negligible gains on 2 datasets, modest gains (between 1.5-3 points of accuracy) on 2 other datasets, and substantial gains (>8 points) on one dataset.
+Among methods using informative priors, we find that an isotropic covariance appears competitive with learned low-rank covariance matrix while being substantially simpler to understand and tune.
+Further analysis suggests that the mechanistic justification for informed priors -- hypothesized improved alignment between train and test loss landscapes -- is not consistently supported due to high variability in empirical landscapes.
+We release code to allow independent reproduction of all experiments.},
+code = {https://github.com/tufts-ml/bdl-transfer-learning},
+selected = {true},
+preview={tmlr.png}
+}
+
 @article{cells12212536,
 author = {Petrov, Mikhail and Sokolov, Igor},
 title = {Machine Learning Allows for Distinguishing Precancerous and Cancerous Human Epithelial Cervical Cells Using High-Resolution AFM Imaging of Adhesion Maps},
@@ -46,7 +67,7 @@ preview={ga.png}
 
 @article{PhysRevLett.123.077001,
 title = {Hydrogen-Induced High-Temperature Superconductivity in Two-Dimensional Materials: The Example of Hydrogenated Monolayer \(\mathrm{MgB}_{2}\) },
-author = {Bekaert, Jonas and Petrov, Mikhail and Aperis, Alex and Oppeneer, Peter M. and Milošević, Milorad V.},
+author = {Bekaert\(^{*}\), Jonas and Petrov\(^{*}\), Mikhail and Aperis, Alex and Oppeneer, Peter M. and Milošević, Milorad V.},
 journal = {Physical Review Letters},
 year = {2019},
 abstract = {Hydrogen-based compounds under ultrahigh pressure, such as the polyhydrides H\(_3\)S and LaH\(_{10}\), superconduct through the conventional electron-phonon coupling mechanism to attain the record critical temperatures known to date. Here we exploit the intrinsic advantages of hydrogen to strongly enhance phonon-mediated superconductivity in a completely different system, namely, a two-dimensional material with hydrogen adatoms. We find that van Hove singularities in the electronic structure, originating from atomiclike hydrogen states, lead to a strong increase of the electronic density of states at the Fermi level, and thus of the electron-phonon coupling. Additionally, the emergence of high-frequency hydrogen-related phonon modes in this system boosts the electron-phonon coupling further. As a concrete example, we demonstrate the effect of hydrogen adatoms on the superconducting properties of monolayer MgB\(_2\), by solving the fully anisotropic Eliashberg equations, in conjunction with a first-principles description of the electronic and vibrational states, and their coupling. We show that hydrogenation leads to a high critical temperature of 67 K, which can be boosted to over 100 K by biaxial tensile strain.},
