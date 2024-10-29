@@ -5,10 +5,14 @@
 harvey2024learning,
 title={Learning the Regularization Strength for Deep Fine-Tuning via a Data-Emphasized Variational Objective},
 author={Ethan Harvey and Mikhail Petrov and Michael C Hughes},
+abstract = {A number of popular transfer learning methods rely on grid search to select regularization hyperparameters that control over-fitting. This grid search requirement has several key disadvantages: the search is computationally expensive, requires carving out a validation set that reduces the size of available data for model training, and requires practitioners to specify candidate values. In this paper, we propose an alternative to grid search: directly learning regularization hyperparameters on the full training set via model selection techniques based on the evidence lower bound ("ELBo") objective from variational methods. For deep neural networks with millions of parameters, we specifically recommend a modified ELBo that upweights the influence of the data likelihood relative to the prior while remaining a valid bound on the evidence for Bayesian model selection. Our proposed technique overcomes all three disadvantages of grid search. We demonstrate effectiveness on image classification tasks on several datasets, yielding heldout accuracy comparable to existing approaches with far less compute time.},
 booktitle={NeurIPS 2024 Workshop on Fine-Tuning in Modern Machine Learning: Principles and Scalability},
 year={2024},
-url={https://openreview.net/forum?id=wzvP0CJ8h4}
-preview={de-elbo.png}
+html={https://openreview.net/forum?id=wzvP0CJ8h4},
+selected = {true},
+preview={de-elbo.png},
+code = {https://github.com/tufts-ml/data-emphasized-ELBo},
+pdf = {https://openreview.net/forum?id=wzvP0CJ8h4},
 }
 
 
@@ -18,10 +22,11 @@ journal = {Materials Today},
 year = {2024},
 issn = {1369-7021},
 doi = {https://doi.org/10.1016/j.mattod.2024.08.021},
-url = {https://www.sciencedirect.com/science/article/pii/S1369702124001871},
+html = {https://www.sciencedirect.com/science/article/pii/S1369702124001871},
 author = {M. Petrov and D. Canena and N. Kulachenkov and N. Kumar and Pierre Nickmilder and Philippe Leclère and Igor Sokolov},
 keywords = {NanoSpectroscopy, Material Identification, Composite Materials, Machine Learning, Atomic force microscopy (AFM), Polymer composites},
 abstract = {Here, we present a novel mechano-spectroscopic atomic force microscopy (AFM-MS) technique that overcomes the limitations of current spectroscopic methods by combining the high-resolution imaging capabilities of AFM with machine learning (ML) classification. AFM-MS employs AFM operating in sub-resonance tapping imaging mode, which enables the collection of multiple physical and mechanical property maps of a sample with sub-nanometer lateral resolution in a highly repeatable manner. By comparing these properties to a database of known materials, the technique identifies the location of constituent materials at each image pixel with the assistance of ML algorithms. We demonstrate AFM-MS on various material mixtures, achieving an unprecedented lateral spectroscopic resolution of 1.6 nm. This powerful approach opens new avenues for nanoscale material study, including the material identification and correlation of nanostructure with macroscopic material properties. The ability to map material composition with such high resolution will significantly advance the understanding and design of complex, nanostructured materials.},
+selected = {true},
 preview={afm_ms.jpg}
 }
 
