@@ -18,10 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently a PhD student at Tufts Univeristy (Department of Mechanical Engineering). My main interests are:
+Currently pursuing a PhD in Mechanical Engineering at Tufts University, with a strong interdisciplinary background spanning computational physics, nanophysics, and applied AI.
 
-1. Machine learning for health
-2. Bayesian deep learning
-3. Numerical simulations of materials from first principles (Density Functional theory)
-4. Atomic force microscopy
+💡 Expertise:
+
+* Advanced machine learning techniques, including Bayesian deep learning, generative models (VAE, diffusion models), and transfer learning.
+* High-performance computing and large-scale data analysis using Python, PyTorch, TensorFlow, and more.
+* AI applications in healthcare and materials science, such as cancer detection and polymer classification.
 
