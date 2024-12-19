@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 Currently pursuing a PhD in Mechanical Engineering at Tufts University, with a strong interdisciplinary background spanning computational physics, nanophysics, and applied AI.
 
-💡 Expertise:
+Expertise:
 
 * Advanced machine learning techniques, including Bayesian deep learning, generative models (VAE, diffusion models), and transfer learning.
 * High-performance computing and large-scale data analysis using Python, PyTorch, TensorFlow, and more.
